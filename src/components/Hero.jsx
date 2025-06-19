@@ -26,7 +26,7 @@ const Hero = () => {
   href="https://vainitacontoston.myrestoo.net/es/info"
   target="_blank"
   rel="noopener noreferrer"
-  className="mt-8 inline-block bg-[#aa9465] text-white uppercase text-sm font-semibold px-6 py-3 hover:bg-gray-200  rounded-full transition-colors"
+ className="mt-8 inline-block bg-[#aa9465] text-white uppercase text-sm font-semibold px-6 py-3 rounded-full transform transition duration-200 hover:scale-110"
 >
   Reserva en Vainita
 </a>

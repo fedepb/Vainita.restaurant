@@ -35,23 +35,23 @@ const Header = () => {
         </div>
 
         {/* --- 2. CENTRO: Menú y Botón --- */}
-        <div className="font-serif hidden md:flex flex-none items-center gap-6">
+        <div className="hidden md:flex flex-none items-center gap-6">
           <nav className="flex space-x-6">
             
             <a 
               href="#inicio" 
-              className={`uppercase text-xs tracking-wider transition-colors duration-300 `}
+              className={`uppercase text-sm tracking-wider transition-colors duration-300 `}
               style={{ color: isAtTop ? colorDorado : 'white' }}
             >
               Inicio
             </a>
             
-            <a href="#carta" className="text-white uppercase text-xs tracking-wider" style={{ '--color-dorado': colorDorado }} onMouseOver={e => e.currentTarget.style.color = colorDorado} onMouseOut={e => e.currentTarget.style.color = 'white'}>Carta</a>
-            <a href="#ubicacion" className="text-white uppercase text-xs tracking-wider" style={{ '--color-dorado': colorDorado }} onMouseOver={e => e.currentTarget.style.color = colorDorado} onMouseOut={e => e.currentTarget.style.color = 'white'}>Ubicación</a>
+            <a href="#carta" className="text-white uppercase text-sm tracking-wider" style={{ '--color-dorado': colorDorado }} onMouseOver={e => e.currentTarget.style.color = colorDorado} onMouseOut={e => e.currentTarget.style.color = 'white'}>Carta</a>
+            <a href="#ubicacion" className="text-white uppercase text-sm tracking-wider" style={{ '--color-dorado': colorDorado }} onMouseOver={e => e.currentTarget.style.color = colorDorado} onMouseOut={e => e.currentTarget.style.color = 'white'}>Ubicación</a>
           </nav>
           <a 
             href="#reservas"
-            className="border text-xs uppercase font-semibold px-5 py-2 transition-colors duration-300 rounded-full border-2 "
+            className="border text-sm uppercase font-semibold px-5 py-2 transition-colors duration-300 rounded-full border-2 "
             style={{ borderColor: colorDorado, color: colorDorado }}
             onMouseOver={e => { e.currentTarget.style.backgroundColor = colorDorado; e.currentTarget.style.color = '#084538'; }}
             onMouseOut={e => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = colorDorado; }}
