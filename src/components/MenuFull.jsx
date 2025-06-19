@@ -1,5 +1,5 @@
 import React from 'react';
-import { menuData } from '../data/menuData'; 
+import { menuData } from '../data/MenuData'; 
 import MenuCategory from './MenuCategory';
 
 const MenuFull = () => {
