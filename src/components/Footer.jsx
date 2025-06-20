@@ -6,27 +6,27 @@ export default function Footer() {
   const whatsappUrl = "https://api.whatsapp.com/send/?phone=34687586325&text&type=phone_number&app_absent=0";
 
   return (
-    // 1. Convertimos el footer en un contenedor flex
-    <footer className="px-8 py-4 flex justify-between items-center bg-[#084538] text-[#aa9465]">
+    // CAMBIO: Se ajusta el layout para ser flexible y centrado en móvil
+    <footer className="px-8 py-6 flex flex-col sm:flex-row sm:justify-between items-center bg-[#084538] text-[#aa9465] gap-4">
       
-      {/* 2. Elemento Izquierdo: El texto de copyright */}
-      <p className="text-sm">
+      {/* CAMBIO: Texto centrado en móvil y alineado a la izquierda en escritorio */}
+      <p className="text-sm text-center sm:text-left">
         © 2025 Vainita con Tostón. Todos los derechos reservados.
       </p>
 
-      {/* 3. Elemento Derecho: Los enlaces de navegación */}
-      <nav className="flex items-center gap-6">
+      {/* CAMBIO: La navegación se oculta en móvil (hidden) y se muestra a partir de 'sm' (sm:flex) */}
+      <nav className="hidden sm:flex items-center gap-6">
         <a 
           href="#inicio" 
-          className="text-sm  tracking-wider hover:text-white transition-colors"
+          className="text-sm tracking-wider hover:text-white transition-colors"
         >
           Inicio
         </a>
         <a 
           href={whatsappUrl}
-          target="_blank"          // <-- Para que se abra en una nueva pestaña
+          target="_blank"           // <-- Para que se abra en una nueva pestaña
           rel="noopener noreferrer"  // <-- Buena práctica de seguridad para enlaces externos
-          className="text-sm e tracking-wider hover:text-white transition-colors"
+          className="text-sm tracking-wider hover:text-white transition-colors"
         >
           Contacto
         </a>
