@@ -32,14 +32,14 @@ const Hero = () => {
 </a>
       </div>
 
-      {/* --- INICIO: Icono de Scroll del Ratón --- */}
-      <div className="absolute bottom-14 left-1/2 -translate-x-1/2">
-        <div className="w-8 h-12 border-2 border-white rounded-full">
-          {/* Esta es la rueda del ratón, a la que aplicamos la animación */}
-          <div className="w-1 h-2 bg-white rounded-full mx-auto mt-2 animate-scroll-down"></div>
-        </div>
-      </div>
-      {/* --- FIN: Icono de Scroll del Ratón --- */}
+{/* --- INICIO: Icono de Scroll del Ratón --- */}
+<div className="absolute bottom-20 md:bottom-12 left-1/2 -translate-x-1/2">
+  <div className="w-8 h-12 border-2 border-white rounded-full">
+    {/* Esta es la rueda del ratón, a la que aplicamos la animación */}
+    <div className="w-1 h-2 bg-white rounded-full mx-auto mt-2 animate-scroll-down"></div>
+  </div>
+</div>
+{/* --- FIN: Icono de Scroll del Ratón --- */}
 
     </div>
   );
