@@ -5,7 +5,7 @@ export const menuData = [
   {
     category: "VAMO’ ALLÁ",
     verticalTitle: "Para Empezar",
-    imageSrc: "/images/entrante.jpg",
+    imageSrc: "/images/entrantelow.jpg",
     items: [
       { name: "Jamón ibérico", price: "24,00€" },
       { name: "Croquetas de jamón", description: "6 uds", price: "12,50€" },
@@ -20,7 +20,7 @@ export const menuData = [
   {
     category: "DE LA TIERRA",
     verticalTitle: "Del Fuego",
-    imageSrc: "/images/paella.jpg",
+    imageSrc: "/images/paellalow.jpg",
     items: [
       { name: "Chuletón de vaca (1kg)", description: "patatas y pimientos de padrón", price: "25,00€" },
       { name: "Solomillo de vaca", description: "cremoso de brócoli, puré de patatas y pedro ximénez", price: "22,00€" },
@@ -35,7 +35,7 @@ export const menuData = [
   {
     category: "DE LA PESCA",
     verticalTitle: "Del Mar",
-    imageSrc: "/images/pulpo.jpg",
+    imageSrc: "/images/pulpolow.jpg",
     items: [
   { name: "Tartar de salmón con aguacate", price: "17,50€" },
   { name: "Pulpo braseado", description: "sobre cremoso de boniato", price: "22,00€" },
@@ -63,7 +63,7 @@ export const menuData = [
   {
     category: "DULCE FINAL",
     verticalTitle: "El Postre",
-    imageSrc: "/images/postre.jpg",
+    imageSrc: "/images/postrelow.jpg",
     items: [
       { name: "Tarta de queso cremosa", price: "7,00€" },
       { name: "Flan de coco con dulce de leche", price: "7,00€" },

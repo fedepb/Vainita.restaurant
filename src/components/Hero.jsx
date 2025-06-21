@@ -1,6 +1,6 @@
 import React from 'react';
 
-const backgroundImageUrl = "../../images/portada.jpg"; // Asegúrate de que la ruta sea correcta"";
+const backgroundImageUrl = "../../images/portadalow.jpg"; // Asegúrate de que la ruta sea correcta"";
 
 const Hero = () => {
   return (
