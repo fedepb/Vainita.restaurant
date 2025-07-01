@@ -65,13 +65,24 @@ const Header = () => {
               <a href="#carta" className="text-white hover:text-[#aa9465] uppercase text-sm tracking-wider transition-colors duration-300">Carta</a>
               <a href="#ubicacion" className="text-white hover:text-[#aa9465] uppercase text-sm tracking-wider transition-colors duration-300">Ubicación</a>
             </nav>
-            <a
-              href="#reservas"
-              className="border-2 text-sm uppercase font-semibold px-5 py-2 transition-colors duration-300 rounded-full hover:bg-[#aa9465] hover:text-[#084538]"
-              style={{ borderColor: colorDorado, color: colorDorado }}
-            >
-              Reservas
-            </a>
+          <a
+            href="#reservas"
+            className="
+              /* Estilos base */
+              border-2 text-sm uppercase font-semibold px-5 py-2 rounded-full 
+              
+              /* Colores iniciales */
+              border-[#aa9465] text-[#aa9465] 
+              
+              /* Transición */
+              transition-colors duration-300 
+              
+              /* Estilos en Hover */
+              hover:bg-[#aa9465] hover:text-[#084538]
+            "
+          >
+            Reservas
+          </a>
           </div>
 
           <div className="hidden md:flex flex-1 justify-end">
